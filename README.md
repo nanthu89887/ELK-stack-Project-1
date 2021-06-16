@@ -37,7 +37,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 10.5.0.4   | Linux            |
 | WEB 1    |Webserver1| 10.5.0.5   | Ubuntu           |
 | WEB-2    |Webserver2| 10.6.0.4   | Ubuntu           |
-
+| WEB-3    |webserver3| 10.5.0.6   | Ubuntu
 
 ### Access Policies
 
@@ -56,7 +56,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | No                  | 10.0.0.1             |
 | WEB-1    | No                  | 10.5.0.5             |
 | WEB-2    | NO                  | 10.6.0.4             |
-
+| WEB-3    | No                  | 10.5.0.6
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
